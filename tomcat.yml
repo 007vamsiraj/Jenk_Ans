@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: tomcat
   become: yes
   tasks:
   - name: Install tomcat
